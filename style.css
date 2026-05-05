@@ -1064,6 +1064,11 @@ footer {
   padding: 0.3rem 0.9rem;
   border-radius: 20px;
   border: 1px solid rgba(0, 180, 216, 0.2);
+
+  display: flex;              /* adiciona isso */
+  flex-direction: column;     /* nome em cima, link embaixo */
+  align-items: center;
+  text-align: center;
 }
 
 .footer-note {
